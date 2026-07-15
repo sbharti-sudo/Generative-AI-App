@@ -51,7 +51,13 @@ python tools-app.py
 
 ### chat-app.py
 
-Paste your console output from running the chat app here.
+<img width="1582" height="801" alt="part1_chatapp" src="https://github.com/user-attachments/assets/abfd65ae-d18a-4319-b3df-0f52ddbb76a0" />
+<img width="1487" height="752" alt="part2-responseapi" src="https://github.com/user-attachments/assets/da37d08e-ecd8-4d23-8d84-91b37a60eb98" />
+<img width="1462" height="805" alt="conversation-tracking" src="https://github.com/user-attachments/assets/e7116270-a9b2-49a7-9b69-6da5fd823ba5" />
+<img width="1537" height="827" alt="asynchronousApiUse" src="https://github.com/user-attachments/assets/4b08a9c7-bf25-4594-868d-96595109aa50" />
+
+
+
 
 ### chat-async.py
 
