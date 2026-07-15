@@ -20,8 +20,6 @@ def main():
             api_key=token_provider
         )
 
-        last_response_id = None
-
         while True:
             input_text = input('\nEnter a prompt (or type "quit" to exit): ')
             if input_text.lower() == "quit":
@@ -30,14 +28,20 @@ def main():
                 print("Please enter a prompt.")
                 continue
 
-            response = openai_client.responses.create(
+            completion = openai_client.chat.completions.create(
                 model=model_deployment,
-                instructions="You are a helpful AI assistant that answers questions and provides information.",
-                input=input_text,
-                previous_response_id=last_response_id,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are a helpful assistant that answers questions and provides information."
+                    },
+                    {
+                        "role": "user",
+                        "content": input_text
+                    }
+                ]
             )
-            print(response.output_text)
-            last_response_id = response.id
+            print(completion.choices[0].message.content)
 
     except Exception as ex:
         print(ex)
