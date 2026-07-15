@@ -50,19 +50,25 @@ python tools-app.py
 ## Sample Output
 
 ### chat-app.py
-
+`chat-app.py` using ChatCompletions API for basic chat interactions.
 <img width="1582" height="801" alt="part1_chatapp" src="https://github.com/user-attachments/assets/abfd65ae-d18a-4319-b3df-0f52ddbb76a0" />
+
+ Switch `chat-app.py` to Responses API for improved response handling.
 <img width="1487" height="752" alt="part2-responseapi" src="https://github.com/user-attachments/assets/da37d08e-ecd8-4d23-8d84-91b37a60eb98" />
+
+ Add conversation tracking with `previous_response_id` for maintaining context.
 <img width="1462" height="805" alt="conversation-tracking" src="https://github.com/user-attachments/assets/e7116270-a9b2-49a7-9b69-6da5fd823ba5" />
-<img width="1537" height="827" alt="asynchronousApiUse" src="https://github.com/user-attachments/assets/4b08a9c7-bf25-4594-868d-96595109aa50" />
+
 
 
 
 
 ### chat-async.py
 
-Paste your console output from running the async chat app here.
+
+Create `chat-async.py` with async Responses API for non-blocking chat.
+<img width="1537" height="827" alt="asynchronousApiUse" src="https://github.com/user-attachments/assets/4b08a9c7-bf25-4594-868d-96595109aa50" />
 
 ### tools-app.py
-
-Paste your console output from running the tools app here.
+Create `tools-app.py` with Responses API, `web_search`, and `file_search` tools.
+<img width="1567" height="827" alt="genAi_chat_that_uses_tools" src="https://github.com/user-attachments/assets/43540631-91e1-4080-ac43-091c41d089b5" />
